@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap');
+@import url('style.css');
+body{font-family: 'Roboto', sans-serif; background-image: url(images/bg.png);}
+
+.card{border:0; background: transparent; margin-bottom: 30px;margin-left: -12px; margin-right: -22px;}
+main .profile-div{padding-bottom: 90px;}
+.listing-div ul,.listing-div li {list-style: none;width: 100%;margin: 0;padding: 0;}
+.listing-div li{padding: 15px; background: #dbdde6; border-radius: 100px;}
+.listing-div li + li{margin-top: 20px;}
+.listing-div li a {	display: flex;	align-items: center; width: 100%;}
+.listing-div li a .icon-div:first-child{min-width: 60px;}
+.listing-div li a h3 {margin: 0; color: #000; font-size: 24px;}
+.listing-div .icon-div {width: 60px; font-size: 20px; height: 60px;display: flex;justify-content: center;align-items: center;border-radius: 50%;	color: #fff;}
+.listing-div .icon-div.float-right {background: transparent; color: #000; font-size: 30px;}
+.listing-div .listing-content{padding-right: 20px; padding-left: 20px;}
+
+.carousel-indicators li {width: 15px;height: 15px;border-radius: 50%;opacity: 1;}
+.carousel-indicators{justify-content: right; margin-right: 20px; left: auto; right: 0; margin-bottom: 10px;}
+.slider-div{margin-left: -12px; margin-right: -33px;;}
+.usr-div .img.img-rounded.img-fluid{margin-top: -130px;}
+.user-image-div{width: 200px;}
+.usr-cont-div{padding-left: 20px;}
+.usr-cont-div h2{margin-bottom: 10px; }
+.card-body{padding-left: 0; padding-right: 0;}
+.profile-div{padding-left: 20px; padding-right: 20px; background: #f7f7f7;}
+
+.listing-div .sodial-list{margin-bottom: 30px;}
+.listing-div .sodial-list li a{display: inline-block;align-items: inherit;width: auto;}
+.listing-div .sodial-list li a .icon-div{ border:3px solid rgb(255, 255, 255); background-image: -moz-linear-gradient( 90deg, rgb(249,249,249) 0%, rgb(241,241,241) 100%); background-image: -webkit-linear-gradient( 90deg, rgb(249,249,249) 0%, rgb(241,241,241) 100%);  background-image: -ms-linear-gradient( 90deg, rgb(249,249,249) 0%, rgb(241,241,241) 100%);  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.2); ;}
+.listing-div .sodial-list li a + a{margin-left: 10px;}
+.listing-div .sodial-list li{padding: 0; background: transparent;}
+
+.whatsapp-input{width: 100%;}
+.whatsapp-input .share-whats-up i{font-size: 30px;}
+.whatsapp-input .share-whats-up span{ color: #fff; font-size: 18px;}
+.whatsapp-input .share-whats-up{width: 150px;  text-align: center;  display: flex; background: #25d366;  color: #fff;
+    border-top-right-radius: 30px; padding-left: 10px; border-bottom-right-radius: 30px;  padding-right: 20px;}
+.whatsapp-input #whatsapp-input{border-radius: 30px; height: 60px; padding: 15px 30px; padding-left: 85px; margin-left: -70px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border: 0;;}
+
+.whatsapp-input .input-group-addon{width: 70px; border-right: 1px solid; text-align: center; height: 60px; line-height: 60px; float: left; z-index: 1111; }
+.about-me{margin-bottom: 50px; margin-top: -20px;}
+
+.listing-div.addbottom.bottom ul{margin-bottom: 0;}
+.listing-div.addbottom.bottom li{display: flex;}
+.listing-div.addbottom.bottom a,
+.listing-div.addbottom.bottom a .icon-div{width: 100%; border-radius: 10px;  border-bottom-right-radius: 0; border-bottom-left-radius: 0; display: flex; box-shadow: none; margin: 0; } 
+.listing-div.addbottom.bottom a .icon-div{width: 100%; border-radius: 10px;  border-bottom-right-radius: 0; border-bottom-left-radius: 0; display: flex; box-shadow: none; margin: 0; } 
+.listing-div.addbottom.bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin: 0 auto;
+    max-width: 760px;
+}
+
+.usr-cont-div p{margin-bottom: 0;}
+
+a,
+a:hover{text-decoration: none;}
+
+@media (max-width:9121px){
+    .usr-div .img.img-rounded.img-fluid{margin-top: -90px;height:350px;}
+}
+
+@media (max-width:768px){
+
+.listing-content span{width: 300px;}
+.usr-div .img.img-rounded.img-fluid{margin-top: -90px;height:400px;}
+}
+
+@media (max-width:540px){
+    .usr-div .img.img-rounded.img-fluid{margin-top: -90px;height:250px;}
+}
+
+@media (max-width:480px){
+.profile-div{padding-right: 15px; padding-left: 15px;}
+.card{margin-bottom: 0;}
+.listing-content span{width: 250px;}
+.user-image-div{ width: 140px; min-width: 140px; margin-bottom: 30px; }
+.usr-div .img.img-rounded.img-fluid{margin-top: -90px;height:110px;}
+.usr-div .card-body .d-flex{-webkit-box-orient: vertical!important; -webkit-box-direction: normal!important;  -ms-flex-direction: column!important;
+    flex-direction: column!important;}
+.listing-div .icon-div{width: 40px; min-width: 40px !important; height: 40px;}
+.listing-div li{padding: 10px;}
+.listing-div .listing-content {padding-left: 10px;padding-right: 10px;justify-content: left;align-items: left;display: flex;-webkit-box-orient: vertical!important; -webkit-box-direction: normal!important;  -ms-flex-direction: column!important;   flex-direction: column!important;}
+.listing-div li a h3{font-size: 16px;}
+.listing-content span{font-size: 12px; width: 167px;}
+.listing-div li a .icon-div:last-child{width: 20px; min-width: 20px !important;}
+.listing-div .sodial-list li a .icon-div:last-child{width: 40px; min-width: 40px !important; height: 40px;}
+.slider-div{margin-left: -15px; margin-right: -15px;}
+.usr-cont-div{padding-left: 0;}
+.whatsapp-input #whatsapp-input{ padding-left: 46px; height: 44px;  font-size: 12px; padding-right: 15px;  margin-left: -36px;}
+.whatsapp-input .input-group-addon{width: 36px; height: 44px; font-size: 12px; line-height: 44px;}
+.whatsapp-input .share-whats-up{width: 94px; padding-left: 6px; padding-right: 10px;}
+.whatsapp-input .share-whats-up span{font-size: 14px;}
+.whatsapp-input .share-whats-up i{font-size: 18px;}
+.listing-div li.whatsapp-li{padding: 0; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);}
+.about-me { margin-bottom: 20px;}
+
+.listing-div.addbottom ul{margin-bottom: 0;}
+.listing-div.addbottom li{display: flex !important;}
+.listing-div.addbottom a,
+.listing-div.addbottom a .icon-div{width: 100% !important; border-radius: 10px;  border-bottom-right-radius: 0; border-bottom-left-radius: 0; display: flex !important; box-shadow: none; margin: 0; } 
+.listing-div.addbottom a .icon-div{width: 100%; border-radius: 10px;  border-bottom-right-radius: 0; border-bottom-left-radius: 0; display: flex; box-shadow: none; margin: 0; }
+.listing-div .sodial-list li a + a{margin-left: 0;}
+main .profile-div{padding-bottom: 50px;}
+.listing-div.addbottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 111111;
+    margin: 0 auto;
+    max-width: 760px;
+}
+
+
+
+@media (max-width:300px){
+    .usr-div .img.img-rounded.img-fluid{margin-top: -90px;height:75px;}
+}
+
+}
+
+/*** Styles added to fix the issue with zoom in on iphone ***/
+/* iPhone < 5: */
+@media screen and (device-aspect-ratio: 2/3) {
+    select, textarea, input[type="text"], input[type="password"],
+    input[type="datetime"], input[type="datetime-local"],
+    input[type="date"], input[type="month"], input[type="time"],
+    input[type="week"], input[type="number"], input[type="email"],
+    input[type="url"]{ font-size: 16px; }
+}
+
+/* iPhone 5, 5C, 5S, iPod Touch 5g */
+@media screen and (device-aspect-ratio: 40/71) {
+    select, textarea, input[type="text"], input[type="password"],
+    input[type="datetime"], input[type="datetime-local"],
+    input[type="date"], input[type="month"], input[type="time"],
+    input[type="week"], input[type="number"], input[type="email"],
+    input[type="url"]{ font-size: 16px; }
+}
+
+/* iPhone 6, iPhone 6s, iPhone 7 portrait/landscape */
+@media screen and (device-aspect-ratio: 375/667) {
+    select, textarea, input[type="text"], input[type="password"],
+    input[type="datetime"], input[type="datetime-local"],
+    input[type="date"], input[type="month"], input[type="time"],
+    input[type="week"], input[type="number"], input[type="email"],
+    input[type="url"]{ font-size: 16px; }
+}
+
+/* iPhone 6 Plus, iPhone 6s Plus, iPhone 7 Plus portrait/landscape */
+@media screen and (device-aspect-ratio: 9/16) {
+    select, textarea, input[type="text"], input[type="password"],
+    input[type="datetime"], input[type="datetime-local"],
+    input[type="date"], input[type="month"], input[type="time"],
+    input[type="week"], input[type="number"], input[type="email"],
+    input[type="url"]{ font-size: 16px; }
+}
+.tr-none{transform: scale(1) !important; -webkit-transform: scale(1) !important;}
+
+
+
+
+
+
